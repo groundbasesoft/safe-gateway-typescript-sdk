@@ -396,7 +396,8 @@ export interface operations {
       }
       query: {
         /** Taken from the Page['next'] or Page['previous'] */
-        page_url?: string
+        page_url?: string,
+        trusted?: boolean
       }
     }
     responses: {
